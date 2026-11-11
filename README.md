@@ -2,7 +2,7 @@
 
 用于练习本地文件、文件夹上传到 GitHub，以及修改后更新仓库。
 
-- 本机目录：`/home/robot/my_projects`
+- 本机目录：`/home/robot/my_projects/test1`
 - GitHub 仓库：https://github.com/shiqistar/test1
 - 分支：`main`
 - 连接方式：SSH
@@ -19,7 +19,7 @@ Git 会保留这两次提交的历史。文件夹通过里面的文件一起上�
 在终端执行：
 
 ```bash
-cd /home/robot/my_projects
+cd /home/robot/my_projects/test1
 git status
 git add .
 git diff --cached
@@ -34,10 +34,10 @@ git push
 在开始本次修改之前，确保本地修改已提交，然后执行：
 
 ```bash
-cd /home/robot/my_projects
+cd /home/robot/my_projects/test1
 git pull --ff-only
 ```
 
 ## 在 VS Code 中操作
 
-打开 `/home/robot/my_projects`，进入左侧“源代码管理”，查看修改、暂存、填写提交说明并提交，然后选择推送。
+打开 `/home/robot/my_projects/test1`，进入左侧“源代码管理”，查看修改、暂存、填写提交说明并提交，然后选择推送。
